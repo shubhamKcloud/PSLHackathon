@@ -1,0 +1,35 @@
+## Error Title
+Authentication Failure
+ 
+---
+ 
+## Error ID
+KE-AUTH-001
+ 
+---
+ 
+## Error Description
+401 Unauthorized
+ 
+---
+ 
+## Root Cause
+Credentials are expired, invalid, or incorrectly configured.
+ 
+---
+ 
+## Resolution
+- Refresh authentication tokens.
+- Verify usernames, passwords, and secrets.
+- Confirm token expiration settings.
+- Reconfigure credentials if necessary.
+ 
+---
+ 
+## Owner
+Security / Application Support Team
+ 
+---
+ 
+## Last Updated
+[Insert Date]

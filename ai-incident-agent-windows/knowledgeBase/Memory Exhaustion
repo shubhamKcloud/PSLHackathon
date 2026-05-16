@@ -1,0 +1,37 @@
+# Known Error Documentation: Memory Exhaustion
+ 
+## Error Title
+Memory Exhaustion
+ 
+---
+ 
+## Error ID
+KE-MEM-001
+ 
+---
+ 
+## Error Description
+OutOfMemoryError
+ 
+---
+ 
+## Root Cause
+The application consumed more memory than allocated.
+ 
+---
+ 
+## Resolution
+- Increase application memory limits.
+- Investigate and fix memory leaks.
+- Optimize code to reduce memory usage.
+- Restart the application if necessary.
+ 
+---
+ 
+## Owner
+Application Development / Support Team
+ 
+---
+ 
+## Last Updated
+[Insert Date]

@@ -1,0 +1,35 @@
+## Error Title
+Permission Denied
+
+---
+
+## Error ID
+KE-PERM-001
+
+---
+
+## Error Description
+403 Forbidden
+
+---
+
+## Root Cause
+The user or service account lacks required permissions.
+
+---
+
+## Resolution
+- Review access roles and policies.
+- Grant the necessary permissions.
+- Validate IAM or application authorization settings.
+- Retry the operation after access updates.
+
+---
+
+## Owner
+Security / Infrastructure Team
+
+---
+
+## Last Updated
+[Insert Date]

@@ -1,0 +1,35 @@
+## Error Title
+API Rate Limit Exceeded
+
+---
+
+## Error ID
+KE-API-001
+
+---
+
+## Error Description
+429 Too Many Requests
+
+---
+
+## Root Cause
+Too many requests were sent within a short period.
+
+---
+
+## Resolution
+- Implement retry logic with exponential backoff.
+- Reduce request frequency.
+- Cache repeated requests where possible.
+- Request higher rate limits if needed.
+
+---
+
+## Owner
+Application Development Team
+
+---
+
+## Last Updated
+[Insert Date]

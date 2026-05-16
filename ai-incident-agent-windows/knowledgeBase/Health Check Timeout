@@ -1,0 +1,35 @@
+## Error Title
+Health Check Timeout
+
+---
+
+## Error ID
+KE-HEALTH-001
+
+---
+
+## Error Description
+Failed health check: timeout
+
+---
+
+## Root Cause
+A dependent service or infrastructure monitor did not respond before the configured timeout period. This can be caused by slow network connectivity, overloaded service instances, or temporary service downtime.
+
+---
+
+## Resolution
+- Verify the health-check endpoint and network connectivity.
+- Check the target service logs for slow responses or resource exhaustion.
+- Increase the health-check timeout if the service legitimately needs more time to respond.
+- Restart or scale the affected service if it is overloaded.
+
+---
+
+## Owner
+Infrastructure / Platform Team
+
+---
+
+## Last Updated
+2026-05-16

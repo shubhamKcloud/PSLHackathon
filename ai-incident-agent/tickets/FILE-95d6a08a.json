@@ -1,0 +1,24 @@
+{
+  "id": "FILE-95d6a08a",
+  "status": "open",
+  "title": "Auto-detected issue: app.log",
+  "description": "An error was logged in the application during a test operation, indicating a test-related failure or exception for GPT-4 analysis.",
+  "severity": "P2",
+  "root_cause": "An error was logged in the application during a test operation, indicating a test-related failure or exception for GPT-4 analysis.",
+  "analysis_source": "ai",
+  "resolution": "Review the test error details and ensure that test cases and error handling are properly configured; no immediate action required unless this impacts production functionality.",
+  "owner": "AI",
+  "raw": {
+    "raw_line": "2026-05-16 12:00:00,000 ERROR [test] Test error for GPT-4 analysis",
+    "level": "error",
+    "source": "app.log",
+    "message": "2026-05-16 12:00:00,000 ERROR [test] Test error for GPT-4 analysis",
+    "path": "logs/app.log"
+  },
+  "analysis": {
+    "summary": "An error was logged in the application during a test operation, indicating a test-related failure or exception for GPT-4 analysis.",
+    "impact": "low",
+    "recommendation": "Review the test error details and ensure that test cases and error handling are properly configured; no immediate action required unless this impacts production functionality."
+  },
+  "file_path": "tickets/FILE-95d6a08a.json"
+}

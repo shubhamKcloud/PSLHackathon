@@ -1,0 +1,24 @@
+{
+  "id": "FILE-9fe8c65f",
+  "status": "open",
+  "title": "Auto-detected issue: app.log",
+  "description": "The application failed to connect to the database due to a timeout, indicating that the database server was either unresponsive or unreachable at the time.",
+  "severity": "P2",
+  "root_cause": "The application failed to connect to the database due to a timeout, indicating that the database server was either unresponsive or unreachable at the time.",
+  "analysis_source": "ai",
+  "resolution": "Investigate database server availability, check network connectivity between the application and database, and review database performance metrics for possible bottlenecks.",
+  "owner": "AI",
+  "raw": {
+    "raw_line": "2026-05-16 12:00:00,000 ERROR [test] Database connection failed: timeout",
+    "level": "error",
+    "source": "app.log",
+    "message": "2026-05-16 12:00:00,000 ERROR [test] Database connection failed: timeout",
+    "path": "logs/app.log"
+  },
+  "analysis": {
+    "summary": "The application failed to connect to the database due to a timeout, indicating that the database server was either unresponsive or unreachable at the time.",
+    "impact": "high",
+    "recommendation": "Investigate database server availability, check network connectivity between the application and database, and review database performance metrics for possible bottlenecks."
+  },
+  "file_path": "tickets/FILE-9fe8c65f.json"
+}

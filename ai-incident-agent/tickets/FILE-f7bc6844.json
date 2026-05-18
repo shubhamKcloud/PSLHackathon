@@ -1,0 +1,24 @@
+{
+  "id": "FILE-f7bc6844",
+  "status": "open",
+  "title": "Auto-detected issue: infra.log",
+  "description": "A disk write failure occurred on /var/lib/data, indicating the system was unable to save data to the specified storage location.",
+  "severity": "P2",
+  "root_cause": "A disk write failure occurred on /var/lib/data, indicating the system was unable to save data to the specified storage location.",
+  "analysis_source": "ai",
+  "resolution": "Check disk health and available space; review system and hardware logs for further errors; repair or replace faulty hardware if needed, and ensure backups are up to date.",
+  "owner": "AI",
+  "raw": {
+    "raw_line": "2026-05-15 10:14:55,334 ERROR [infra] Disk write failure on /var/lib/data",
+    "level": "error",
+    "source": "infra.log",
+    "message": "2026-05-15 10:14:55,334 ERROR [infra] Disk write failure on /var/lib/data",
+    "path": "logs/infra.log"
+  },
+  "analysis": {
+    "summary": "A disk write failure occurred on /var/lib/data, indicating the system was unable to save data to the specified storage location.",
+    "impact": "high",
+    "recommendation": "Check disk health and available space; review system and hardware logs for further errors; repair or replace faulty hardware if needed, and ensure backups are up to date."
+  },
+  "file_path": "tickets/FILE-f7bc6844.json"
+}

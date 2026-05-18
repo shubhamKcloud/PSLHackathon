@@ -1,0 +1,5 @@
+2026-05-15 10:10:00,001 INFO [infra] Node ipc-01 healthy
+2026-05-15 10:12:47,112 WARN [infra] CPU usage spike: 89%
+2026-05-15 10:14:55,334 ERROR [infra] Disk write failure on /var/lib/data
+2026-05-15 10:15:10,445 INFO [infra] Auto-scaling event triggered
+2026-05-15 10:16:20,556 INFO [infra] New instance ipc-02 joined cluster

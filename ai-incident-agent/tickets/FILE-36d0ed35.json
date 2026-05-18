@@ -1,0 +1,35 @@
+{
+  "id": "FILE-36d0ed35",
+  "status": "open",
+  "title": "Auto-detected issue: error.log",
+  "description": "Failed health check: timeout",
+  "severity": "P2",
+  "root_cause": "A dependent service or infrastructure monitor did not respond before the configured timeout period. This can be caused by slow network connectivity, overloaded service instances, or temporary service downtime.",
+  "analysis_source": "knowledge_base",
+  "resolution": "- Verify the health-check endpoint and network connectivity.- Check the target service logs for slow responses or resource exhaustion.\n- Increase the health-check timeout if the service legitimately needs more time to respond.\n- Restart or scale the affected service if it is overloaded.",
+  "owner": "Infrastructure / Platform Team",
+  "raw": {
+    "raw_line": "2026-05-15 10:16:04,998 ERROR [infra.monitor] Failed health check: timeout",
+    "level": "error",
+    "source": "error.log",
+    "message": "2026-05-15 10:16:04,998 ERROR [infra.monitor] Failed health check: timeout",
+    "path": "logs/error.log"
+  },
+  "analysis": {
+    "summary": "A dependent service or infrastructure monitor did not respond before the configured timeout period. This can be caused by slow network connectivity, overloaded service instances, or temporary service downtime.",
+    "impact": "medium",
+    "recommendation": "- Verify the health-check endpoint and network connectivity.- Check the target service logs for slow responses or resource exhaustion.\n- Increase the health-check timeout if the service legitimately needs more time to respond.\n- Restart or scale the affected service if it is overloaded.",
+    "source": "knowledge_base",
+    "knowledge_base_entry": "Health Check Timeout",
+    "knowledge_base": {
+      "title": "Health Check Timeout",
+      "error_id": "KE-HEALTH-001",
+      "error_description": "Failed health check: timeout",
+      "root_cause": "A dependent service or infrastructure monitor did not respond before the configured timeout period. This can be caused by slow network connectivity, overloaded service instances, or temporary service downtime.",
+      "resolution": "- Verify the health-check endpoint and network connectivity.- Check the target service logs for slow responses or resource exhaustion.\n- Increase the health-check timeout if the service legitimately needs more time to respond.\n- Restart or scale the affected service if it is overloaded.",
+      "owner": "Infrastructure / Platform Team",
+      "last_updated": "2026-05-16"
+    }
+  },
+  "file_path": "tickets/FILE-36d0ed35.json"
+}

@@ -1,0 +1,4 @@
+2026-05-15 10:15:29,500 INFO [audit] User admin logged in from 192.168.1.100
+2026-05-15 10:15:35,600 INFO [audit] Configuration change applied to service auth
+2026-05-15 10:15:40,700 WARN [audit] Unexpected file permission change detected
+2026-05-15 10:15:45,800 INFO [audit] Backup completed successfully

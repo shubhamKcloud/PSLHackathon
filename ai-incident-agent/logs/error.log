@@ -1,0 +1,7 @@
+2026-05-15 10:16:01,789 ERROR [app.module] Exception in handler
+Traceback (most recent call last):
+  File "/app/main.py", line 120, in handle_request
+    user = get_user(event['user_id'])
+KeyError: 'user_id'
+
+2026-05-15 10:16:04,998 ERROR [infra.monitor] Failed health check: timeout

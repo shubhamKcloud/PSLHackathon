@@ -1,0 +1,8 @@
+2026-05-15 10:15:32,123 INFO [app] Starting service
+2026-05-15 10:15:34,567 INFO [app] Connection established to database
+2026-05-15 10:16:01,789 ERROR [app] Failed to process request: KeyError 'user_id'
+2026-05-15 10:16:03,101 WARN [app] Slow response detected: 524ms
+2026-05-15 10:16:05,202 INFO [app] Completed scheduled job
+2026-05-16 12:00:00,000 ERROR [test] Database connection failed: timeout
+2026-05-16 12:00:00,000 ERROR [test] Test error for GPT-4 analysis
+
